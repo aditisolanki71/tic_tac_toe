@@ -39,12 +39,12 @@ class Board extends React.Component {
     let status;
     if (winner) {
       if(winner === 'X')
-        winner = 'Kanu';
+        winner = 'Arjun';
       else
         winner = 'Aditi';
       status = 'Winner: ' + winner;
     } else {
-      status = 'Next player:'+ (this.state.isFlag ? 'Kanu' : 'Aditi');
+      status = 'Next player:'+ (this.state.isFlag ? 'Arjun' : 'Aditi');
     }
     
     return (
